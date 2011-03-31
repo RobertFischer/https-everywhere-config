@@ -1,0 +1,6 @@
+<ruleset name="ohloh">
+  <target host="www.ohloh.net" />
+  <target host="ohloh.net" />
+  <rule from="^http://(www\.)?ohloh\.net/" to="https://ohloh.net/"/>
+</ruleset>
+
