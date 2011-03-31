@@ -1,6 +1,0 @@
-<ruleset name="hs">
-  <target host="www.hackerspaces.org" />
-  <target host="hackerspaces.org" />
-  <rule from="^http://(www\.)?hackerspaces\.org/" to="https://hackerspaces.org/"/>
-</ruleset>
-
