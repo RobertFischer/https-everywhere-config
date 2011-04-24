@@ -1,0 +1,5 @@
+<ruleset name="Web.ebscohost">
+<target host="web.ebscohost.com" />
+<target host="www.web.ebscohost.com" />
+<rule from="^http://(www\.)?web.ebscohost\.com/" to="https://web.ebscohost.com/"/>
+</ruleset>

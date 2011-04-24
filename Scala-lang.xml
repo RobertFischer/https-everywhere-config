@@ -1,0 +1,5 @@
+<ruleset name="Scala-lang">
+<target host="www.scala-lang.org" />
+<target host="scala-lang.org" />
+<rule from="^http://(www\.)?scala-lang\.org/" to="https://www.scala-lang.org/"/>
+</ruleset>

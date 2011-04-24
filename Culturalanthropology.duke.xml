@@ -1,0 +1,5 @@
+<ruleset name="Culturalanthropology.duke">
+<target host="culturalanthropology.duke.edu" />
+<target host="www.culturalanthropology.duke.edu" />
+<rule from="^http://(www\.)?culturalanthropology.duke\.edu/" to="https://culturalanthropology.duke.edu/"/>
+</ruleset>

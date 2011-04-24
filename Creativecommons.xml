@@ -1,0 +1,5 @@
+<ruleset name="Creativecommons">
+<target host="creativecommons.org" />
+<target host="www.creativecommons.org" />
+<rule from="^http://(www\.)?creativecommons\.org/" to="https://www.creativecommons.org/"/>
+</ruleset>

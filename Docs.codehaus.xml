@@ -1,0 +1,5 @@
+<ruleset name="Docs.codehaus">
+<target host="docs.codehaus.org" />
+<target host="www.docs.codehaus.org" />
+<rule from="^http://(www\.)?docs.codehaus\.org/" to="https://docs.codehaus.org/"/>
+</ruleset>

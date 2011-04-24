@@ -1,0 +1,5 @@
+<ruleset name="Goodreads">
+<target host="www.goodreads.com" />
+<target host="goodreads.com" />
+<rule from="^http://(www\.)?goodreads\.com/" to="https://www.goodreads.com/"/>
+</ruleset>

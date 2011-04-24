@@ -1,0 +1,5 @@
+<ruleset name="Xkcd">
+<target host="xkcd.com" />
+<target host="www.xkcd.com" />
+<rule from="^http://(www\.)?xkcd\.com/" to="https://xkcd.com/"/>
+</ruleset>

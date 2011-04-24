@@ -1,0 +1,5 @@
+<ruleset name="Biblegateway">
+<target host="www.biblegateway.com" />
+<target host="biblegateway.com" />
+<rule from="^http://(www\.)?biblegateway\.com/" to="https://www.biblegateway.com/"/>
+</ruleset>

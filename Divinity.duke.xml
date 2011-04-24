@@ -1,0 +1,5 @@
+<ruleset name="Divinity.duke">
+<target host="divinity.duke.edu" />
+<target host="www.divinity.duke.edu" />
+<rule from="^http://(www\.)?divinity.duke\.edu/" to="https://divinity.duke.edu/"/>
+</ruleset>

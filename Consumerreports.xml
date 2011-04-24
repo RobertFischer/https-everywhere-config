@@ -1,0 +1,5 @@
+<ruleset name="Consumerreports">
+<target host="www.consumerreports.org" />
+<target host="consumerreports.org" />
+<rule from="^http://(www\.)?consumerreports\.org/" to="https://www.consumerreports.org/"/>
+</ruleset>

@@ -1,0 +1,5 @@
+<ruleset name="Ant.apache">
+<target host="ant.apache.org" />
+<target host="www.ant.apache.org" />
+<rule from="^http://(www\.)?ant.apache\.org/" to="https://ant.apache.org/"/>
+</ruleset>

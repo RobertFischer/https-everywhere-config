@@ -1,0 +1,5 @@
+<ruleset name="Commons.apache">
+<target host="commons.apache.org" />
+<target host="www.commons.apache.org" />
+<rule from="^http://(www\.)?commons.apache\.org/" to="https://commons.apache.org/"/>
+</ruleset>

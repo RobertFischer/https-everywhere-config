@@ -1,0 +1,6 @@
+<ruleset name="Posterous">
+<target host="jackdean.posterous.com" />
+<target host="posterous.com" />
+<rule from="^http://posterous\.com/" to="https://posterous.com/"/>
+<rule from="^http://(.+).posterous\.com/" to="https://$1.posterous.com/"/>
+</ruleset>
