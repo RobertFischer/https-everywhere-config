@@ -3,5 +3,6 @@
 here=`pwd`
 cd ~/Library/Application\ Support/Firefox/Profiles/*/HTTPSEverywhereUserRules/
 there=`pwd`
-cp $here/*.xml $there
+cd $here
+cp *.xml "$there"
 
