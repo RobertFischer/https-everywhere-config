@@ -1,0 +1,5 @@
+<ruleset name="Finance.duke">
+<target host="finance.duke.edu" />
+<target host="www.finance.duke.edu" />
+<rule from="^http://(www\.)?finance.duke\.edu/" to="https://finance.duke.edu/"/>
+</ruleset>

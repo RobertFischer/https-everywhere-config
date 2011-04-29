@@ -1,0 +1,5 @@
+<ruleset name="Gandhiserve">
+<target host="www.gandhiserve.org" />
+<target host="gandhiserve.org" />
+<rule from="^http://(www\.)?gandhiserve\.org/" to="https://www.gandhiserve.org/"/>
+</ruleset>

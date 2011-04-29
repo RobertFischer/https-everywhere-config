@@ -1,0 +1,5 @@
+<ruleset name="Publib.boulder.ibm">
+<target host="publib.boulder.ibm.com" />
+<target host="www.publib.boulder.ibm.com" />
+<rule from="^http://(www\.)?publib.boulder.ibm\.com/" to="https://publib.boulder.ibm.com/"/>
+</ruleset>
